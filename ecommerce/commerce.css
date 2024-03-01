@@ -1,0 +1,139 @@
+.head{
+    
+    background-color: rgba(18, 53, 78, 0.823);
+    color: white;
+    padding: 50px;
+    padding-bottom: 53px;
+    box-shadow: 2px 8px 10px;
+    
+    
+    
+}
+.galsen{
+    color: white;
+    font-size: 5rem;
+    
+}
+.commerce{
+    color: brown;
+    text-shadow: 2px 8px 10px;
+    font-family: cursive;
+    font-size: 4rem;
+    
+}
+
+.galsen>i{
+    font-size: 7rem;
+    text-shadow: 2px 8px 10px;
+}
+.head img{
+    float: right;
+    margin-top: -50px;
+    height: 15.3rem;
+    filter: drop-shadow(10px 10px 10px);
+    position: relative;
+    width: 300px;
+}
+#mynavbar>ul>li:hover{
+    background:  rgb(18, 53, 78);
+}
+#mynavbar >ul>{
+    
+}
+::selection{
+    color: white;
+    background: rgb(18, 53, 78);
+}
+/* ------------------------------------------ */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* quatre colonnes */
+    gap: 20px; /* Espace entre les éléments de la grille */
+    margin: 90px; /* Marge autour de la grille */
+    padding-bottom: 80px;
+    height: 400px;
+}
+.grid-item {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+button{
+    color: black;
+    box-shadow: 10px 10px 10px;
+    
+    padding: 10px 20px;
+    bottom: 0px;
+    position: relative;
+    top: 40px;
+}
+img{
+    width: 130px;
+}
+.btn2{
+    position: relative;
+    top: -5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 150px;
+}
+.d-flex>.btnnav{
+    background: rgb(72, 72, 252);
+    top: 0;
+    right: 0;
+    border-radius: 2rem;
+    color: white;
+    box-shadow: none;
+}
+
+.btnpanier{
+float: right;
+position: relative;
+margin-right: 25px;
+box-shadow: none;
+top: 0px;
+}
+.btnpanier >.bt{
+    box-shadow: none;
+    top: 10px;
+    border-radius: 15px 0px ;
+    color: rgb(173, 173, 27);
+
+}
+.btnpanier i>span{
+    color:  rgba(117, 117, 32, 0.998);
+    margin-left: 10px;
+}
+.btnpanier >.bt:hover{
+    background: rgba(90, 90, 28, 0.387);
+}
+#tchirt img{
+    position: relative;
+    width: 80px;
+}
+#iphone img{
+    width: 90px;
+    
+
+}
+#pc img{
+    width: 100px;
+    
+}
+#moto img{
+    width: 100px;
+    
+}
+#canon img{
+    width: 100px;
+}
+#camera img{
+    width: 120px;
+    
+}
+
+
